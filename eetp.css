@@ -1,0 +1,205 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+  
+body{
+    background:radial-gradient(rgba(230, 34, 34, 0.801),rgba(51, 2, 2, 0.76));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+* {
+    font-family:'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+.nav{
+    flex-direction:column repeat(auto-fit , minmax(250px,1fr));
+    width: 100%;
+    height:100px;
+    background:radial-gradient(rgb(80, 21, 21),rgb(95, 2, 18));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;  
+    top: 0;
+    left: 0;
+}
+.nav-ul {
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    list-style: none;   
+}
+.nav-ul-li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5 rem;
+}
+a {
+    color: rgba(255, 255, 255, 0.459);
+    padding: 10px;
+    margin: 10px;
+    text-decoration:none;
+    border-bottom:10px;   
+}
+img{
+   height:90px;
+
+}
+img .nav-logo{
+    transition: all 1s;
+}
+.nav-ul-li{
+transition: all 1s;
+}
+.nav-ul-li:hover{
+    transform: scale(1.2);
+    background:radial-gradient(rgb(37, 1, 1),rgb(180, 126, 126));
+    border-radius:50px;
+}
+img.nav-li:hover{
+    transform:rotate(3dg);
+    border-radius:25px;
+}
+.nav-li{
+    transition: all 1s; 
+}
+.nav-li:hover{
+    transform:scale(1.1);
+}
+.textos {
+    width: 100vw;
+    margin: 180px auto 0; 
+    border-radius: 8px solid;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top:90px;
+   
+}
+.ul{
+    font-size:35px;
+}
+h1{
+    font-size:30px;
+    top:0%;
+    align-items:center;
+    color: rgb(0, 0, 0);
+   
+}
+div{
+border:43px;
+border-color: black;
+}
+.linov{
+    margin:50px;
+    list-style:square;
+}
+.estudiantina{
+    display:flex;
+    flex-direction:row;
+   justify-content: space-between;
+    align-items:center;
+    object-fit: cover;
+    margin-top:90px;
+    height:100vh;
+}
+.inicio_img {
+   
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top:100px;
+    height: 100vh;   
+    transition: all 1s;
+}
+.inicio_img :hover{
+    transform: scale(1.1);
+}
+
+.inicion_img{
+    display:flex;
+    
+}
+.img_fotos {
+    margin:15px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;    
+}
+.inicio1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:80px;
+    color: rgba(211, 15, 15, 0.438);
+    text-align: center;
+    margin:80px;
+    top:30px;
+}
+
+.estudiantina_titulo{
+    margin-top: 20px;
+    padding: 0 100px 20px;
+}
+.estudiantina p{
+    padding: 0 100px 20px;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0); 
+}
+.Estudiantina_img{
+     max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.Estudiantina_img div {
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+    transition: all 1s;
+    justify-self: center;
+}
+.Estudiantina_img img{
+    flex-direction:column repeat(auto-fit);
+    margin:10px;
+    transition: all 1s;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.Estudiantina_img img:hover{
+    transform:scale(1.2);
+}
+/*.estudiantina{
+        display:flex;
+        flex-direction: column;
+       justify-content: space-between;
+        align-items:center;
+        margin-top:90px;
+        height:100vh;
+   
+      
+}*/ 
+/*novedades*/
+
+.novedades{
+    margin-top: 120px;
+    margin-left: 20px;
+}
+    .linov{
+        margin:15px 60px;
+        list-style: square;
+    }
+    
+    @media (max-width: 900px){
+      .inicio1{
+        font-size: 60px;
+      }
+      .inicio2{
+        font-size: 35px;
+      }
+      .linov{
+       margin-top: 10px;
+      }
+    }
+
